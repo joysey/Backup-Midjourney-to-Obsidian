@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - prompt
+      - attributes
+      - file.tags
+      - mj_url
+      - image_url
+      - date
+      - file.size
+    columnSize:
+      file.name: 204
+      note.prompt: 156
+      note.attributes: 222
+      file.tags: 335
+      note.mj_url: 87
+      note.image_url: 109
+      note.date: 110
+      file.size: 92
+  - type: cards
+    name: Cover
+    image: note.image_url
+    imageAspectRatio: 1.1
+    cardSize: 170
